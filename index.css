@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body.dark{
+    background: #121212;
+}
+
+.topBar {
+    height: 16vh;
+    width: 100%;
+    background: #222;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.topBar img {
+    height: calc(100% - 20px);
+}
+
+.changeDisplayMode {
+    background: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.changeDisplayMode i{
+    font-size: calc(10vh - 65px);
+}
