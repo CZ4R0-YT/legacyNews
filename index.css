@@ -41,6 +41,6 @@ body.dark{
     transform: translateY(-50%);
 }
 
-.changeDisplayMode i{
-    font-size: calc(10vh - 65px);
+.changeDisplayMode img{
+    height: 60px;
 }
