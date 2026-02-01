@@ -43,4 +43,5 @@ body.dark{
 
 .changeDisplayMode img{
     height: 36px;
+    filter: invert(1);
 }
